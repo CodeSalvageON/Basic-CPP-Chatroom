@@ -2,8 +2,8 @@
 
 body {
   color: limegreen;
+  font-family: monospace;
   background-color: black;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 h1, h2, h3, h4 {
@@ -34,12 +34,17 @@ h1, h2, h3, h4 {
   margin-right: auto;
 }
 
-.menu-button {
+.menu-button, .ambition-button, .general-button, .difficulty-button {
   border: 1px solid limegreen;
 }
 
-.menu-button:hover {
+.menu-button:hover, .ambition-button:hover, .general-button:hover, .difficulty-button:hover {
+  cursor: default;
   background-color: limegreen;
+}
+
+.small-paragraph {
+  width: 300px;
 }
 
 /* Ids */
